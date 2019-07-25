@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    function show(n){
+        document.body.innerHTML = ''
+        document.write(`<p align="center">
+    <img src="https://picsum.photos/id/16${n}/400/300" alt="">
+    </p>
+    <hr>
+    <p align="center">
+    <button onclick="show(1)">1</button>
+    <button onclick="show(2)">2</button>
+    <button onclick="show(3)">3</button>
+    </p>`)
+    }
+    
+    
+    </script>
+</head>
+<body>
+    <p align="center">
+    <img src="https://picsum.photos/id/16/400/300" alt="">
+    </p>
+    <hr>
+    <p align="center">
+    <button onclick="show(1)">1</button>
+    <button onclick="show(2)">2</button>
+    <button onclick="show(3)">3</button>
+    </p>
+</body>
+</html>
